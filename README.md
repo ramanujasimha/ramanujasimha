@@ -1,7 +1,3 @@
 # My Website
 
-This website has been compiled using [Jekyll](https://jekyllrb.com/) and is based on [Athena theme](https://github.com/broccolini/athena).
-
-## License
-
-See [LICENSE](LICENSE.md) file for license right and limitations (MIT). 
+This website is based on [Skeleton](https://getskeleton.com/). This site is copyright © 2017 [Ramanuja Simha](https://github.com/ramanujasimha/), and licensed under Creative [Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/Copyrights). 

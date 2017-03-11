@@ -1,177 +1,220 @@
-
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
 
-  <head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Ramanuja Simha's Home Page</title>
   <meta name="description" content="Postdoctoral Research Fellow, Toronto CA; PhD in Computer Science, USA">
-  <meta name="keywords" content="Ramanuja Simha, Machine Learning, Data Mining, Bioinformatics, Data Science, 
-                                Computational Biomedicine, Probabilistic Modeling, Multi-label Classification,
-                                Computer Science, University of Toronto, University Health Network, Graphs" />
+  <meta name="keywords" content="Ramanuja Simha, Machine Learning, Data Mining, Bioinformatics, Data Science, Computational Biomedicine, Probabilistic Modeling, Multi-label Classification, Computer Science, University of Toronto, University Health Network, Graphs" />
+  <meta name="author" content="Ramanuja Simha">
 
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-  
-  <link rel="stylesheet" href="http://ramanujasimha.com/assets/style.css">
-  <link rel="stylesheet" href="http://ramanujasimha.com/assets/font-awesome-4.7.0/css/font-awesome.css">
-  <link rel="stylesheet" href="http://ramanujasimha.com/assets/academicons-1.7.0/css/academicons.css"/>
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-  <link rel="canonical" href="http://ramanujasimha.com/">
-  <link rel="alternate" type="application/rss+xml" title="Ramanuja Simha" href="http://ramanujasimha.com/feed.xml">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
 
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/run_prettify.js"></script>
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <script src="js/site.js"></script>
+
+  <!-- Google Analytics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90433201-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
 </head>
+<body>
 
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <section class="header">
+      <h2 class="title">Ramanuja Simha</h2>
+    </section>
 
-  <body>
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#research">Research</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#papers">Publications</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#history">History</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#service">Service</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#blog">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <div>
-
-      <header class="clearfix">
-
-        <div class="right absolute-lg right-0 top-0">
-          <ul class="mt-2 mr-2 mr-lg-3">
-            
-            
-              
-            
-              
-            
-              
-              <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-                <a class="italic no-underline h3 font-smoothing" href="/cv/">CV</a>
-              </li>
-              
-            
-              
-              <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-                <a class="italic no-underline h3 font-smoothing" href="/publications/">Publications</a>
-              </li>
-              
-            
-              
-              <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-                <a class="italic no-underline h3 font-smoothing" href="/awards/">Awards & Honors</a>
-              </li>
-              
-            
-              
-              <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-                <a class="italic no-underline h3 font-smoothing" href="/service/">Acad Service</a>
-              </li>
-              
-            
-              
-              <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-                <a class="italic no-underline h3 font-smoothing" href="/blog/">Blog</a>
-              </li>
-              
-            
-          </ul>
-        </div>
-
-        <div class="container mx-auto px-2 mt-2 mb-2 clearfix header-text">
-          <!--<img src="rsimha.png" width="8%"/>&nbsp;&nbsp;&nbsp;&nbsp;-->
-          <h1 class="h0 inline-block py-2 mt-3 header-title">Ramanuja Simha</h1>
-
-          <div class="clearfix mb-2">
-            <p class="h4 lh-condensed font-smoothing">Postdoctoral Research Fellow, Toronto CA; PhD in Computer Science, USA</p>
-              <ul>
-                
-                  <li class="h4 inline-block">
-                    <a class="no-underline h4 font-smoothing" href="https://linkedin.com/in/ramanujasimha">
-                      <i class="fa fa-linkedin"></i> LinkedIn
-                    </a>
-                  </li>
-                 &nbsp;&nbsp;&nbsp;
-
-                
-                  <li class="h4 inline-block">
-                    <a class="no-underline h4 font-smoothing" href="https://scholar.google.com/citations?user=4nOtToMAAAAJ">
-                      <i class="ai ai-google-scholar"></i> Google Scholar
-                    </a>
-                  </li>
-                 &nbsp;&nbsp;&nbsp;
-
-                
-                  <li class="h4 inline-block">
-                    <a class="no-underline h4 font-smoothing" href="https://github.com/ramanujasimha">
-                      <i class="fa fa-github"></i> GitHub
-                    </a>
-                  </li>
-                 &nbsp;&nbsp;&nbsp;
-
-                
-                  <li class="h4 inline-block">
-                    <a class="no-underline h4 font-smoothing" href="https://twitter.com/ramanujasimha">
-                      <i class="fa fa-twitter"></i> Twitter
-                    </a>
-                  </li>
-                 &nbsp;&nbsp;&nbsp;
-
-                
-                  <li class="h4 inline-block">
-                    <a class="no-underline h4 font-smoothing" href="callto:ramanuja.simha">
-                      <i class="fa fa-skype"></i> Skype 
-                    </a>
-                  </li>
-                 &nbsp;&nbsp;&nbsp;
-
-                
-                  <li class="h4 inline-block">
-                    <a class="no-underline h4 font-smoothing" href="ramanuja.simha@gmail.com">
-                      <i class="fa fa-envelope"></i> Email
-                    </a>
-                  </li>
-                 &nbsp;&nbsp;&nbsp;
-              </ul>
-              <!--<div class="h4 mt-1 font-smoothing inline-block"><i>email:</i> ramanuja <i>dot</i> simha <i>at</i> gmail <i>dot</i> com</div>
-              <br />-->
-              <br />
-              <div class="mt-1 col-1 sm-width-full border-top-thick">
-            </div>
-          </div>
-
-        </div>
-      </header>
-
-      <article class="container mx-auto px-2">
-        <div class="prose mb-4 py-3">
-          
-          <p>Hello! I am Ramanuja, a post-doctoral researcher at the <a href="https://www.utoronto.ca/">University of Toronto</a> / <a href="http://www.uhn.ca/">UHN</a>, Canada. My research interests lie in <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a>, <a href="https://en.wikipedia.org/wiki/Graphical_model">graphical modeling</a>, <a href="https://en.wikipedia.org/wiki/Data_mining">data mining</a>, and <a href="https://en.wikipedia.org/wiki/Computational_biology">computational biology</a>. Some of the topics I have worked on include <a href="https://en.wikipedia.org/wiki/Multi-label_classification">multi-label classification</a> and <a href="https://en.wikipedia.org/wiki/Social_network_analysis">social network analysis</a>.</p>
-
-<p>I graduated with a PhD in <a href="https://en.wikipedia.org/wiki/Computer_science">Computer Science</a> from the <a href="http://www.udel.edu/">University of Delaware</a>, USA in August 2016. For my PhD, I developed machine learning tools for <a href="https://en.wikipedia.org/wiki/Protein_subcellular_localization_prediction">protein multi-location prediction</a> as well as for the more general problem of multi-label classification.</p>
-
-<p>My graduate experience includes internships at <a href="http://www.geglobalresearch.com/">GE Global Research</a> in Niskayuna NY, <a href="https://www.linkedin.com/">LinkedIn</a> in Mountain View CA, and <a href="https://ncar.ucar.edu/about-ncar">National Center for Atmospheric Research</a> in Boulder CO, and summer research at <a href="http://www.cmu.edu/">Carnegie Mellon University</a> in Pittsburgh PA.</p>
-
-<p>I got my Masters in <a href="https://en.wikipedia.org/wiki/Computer_science">Computer Science</a> from the <a href="http://www.usf.edu/">University of South Florida</a>. Prior to my graduate studies, I worked as a software engineer at <a href="http://www.tesco.com/">Tesco</a> in the UK and in India. Even before that, I received my BE in Information Science from the <a href="http://www.nie.ac.in/">National Institute of Engineering</a>.</p>
-
-
-        </div>
-      </article>
-
+    <!-- Intro -->
+    <div class="docs-section" id="intro">
+      <h1 class="docs-header">Introduction</h1>
+      <p>Hello! I am Ramanuja, an engineer and a researcher. I am currently a post-doctoral research fellow at the <a href="https://www.utoronto.ca/">University of Toronto</a> and the <a href="http://www.uhn.ca/">University Health Network</a> in Canada. Earlier in August 2016, I got a PhD in <a href="https://en.wikipedia.org/wiki/Computer_science">Computer Science</a> from the <a href="http://www.udel.edu/">University of Delaware</a> in the United States.</p> 
+      <p>My experience includes summer internships at <a href="http://www.geglobalresearch.com/">GE Global Research</a>, <a href="https://www.linkedin.com/">LinkedIn</a>, <a href="https://ncar.ucar.edu/about-ncar">National Center for Atmospheric Research</a>, research at <a href="http://www.cmu.edu/">Carnegie Mellon University</a> &#8210; all in the US, and software engineering at <a href="http://www.tesco.com/">Tesco</a> in the UK and in India.</p>
     </div>
 
-    <div class="container mx-auto clearfix mt-2 mt-lg-4 px-2">
-  <div class="border-top-thick">
-    <p class="col-8 sm-width-full left py-2 mb-0">Powered by <a href="https://jekyllrb.com/">Jekyll</a>. Maintained by <a href="https://github.com/ramanujasimha">Ramanuja Simha</a>. <a href="https://opensource.org/licenses/MIT">MIT License.</a></p>
-    <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
-      <li class="inline-block mr-1">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="Ramanuja Simha">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      </li>
-      <li class="inline-block">
-        <a class="github-button" href="https://github.com/ramanujasimha/my-website" data-icon="octicon-star" data-count-href="ramanujasimha//stargazers" data-count-api="/repos/ramanujasimha/#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star ramanujasimha/ on GitHub">Star</a>
-      </li>
-    </ul>
-  </div>
-</div>
+    <!-- Research -->
+    <div class="docs-section" id="research">
+      <h6 class="docs-header">Research Interests</h6>
+      <p>Machine Learning, Probabilistic Modeling, Bayesian Networks, Deep Learning, Computational Biology, Data Mining, Graph Algorithms, Social Network Analysis. </p>
+    </div>
 
+    <!-- Papers -->
+    <div class="docs-section" id="papers">
+      <h6 class="docs-header">Publications</h6>
 
-  </body>
+      <p><b>Peer-Reviewed Papers (<a href="http://scholar.google.com/citations?user=4nOtToMAAAAJ&amp;hl=en">Google Scholar</a>; <a href="http://dblp.uni-trier.de/pers/hd/s/Simha:Ramanuja">DBLP</a>)</b></p>
 
+      <p><em><strong>2016</strong></em></p>
+
+      <p><a href="https://www.eecis.udel.edu/~shatkay/papers/ECAI2016-final.pdf">Improved Multi-Label Classification using Inter-dependence Structure via a Generative Mixture Model</a>. <strong><u>R. Simha</u></strong> and H. Shatkay. <em>In proceedings of the European Conference on Artificial Intelligence <strong>(ECAI)</strong>, August 2016 (Acceptance Rate: ~27%)</em>.</p>
+
+      <p><em><strong>2015</strong></em></p>
+
+      <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4765880/pdf/btv264.pdf">Protein (Multi-)Location Prediction: Utilizing Interdependencies via a Generative Model</a>. <strong><u>R. Simha</u></strong>, S.&nbsp;Briesemeister, O. Kohlbacher, and H. Shatkay. <em>In proceedings of the International Conference on Intelligent Systems for Molecular Biology <strong>(ISMB/ECCB)</strong>, July 2015 (Acceptance Rate: ~17%)</em>. <em>Bioinformatics 31(12), 2015</em>.</p>
+  
+      <p><a href="http://www.slas2015.org/program/SLAS2015_ProgramAbstractCompendium.pdf">Protein (Multi-)Location Prediction: Using Bayesian Networks for Location Inter-dependencies, and a Mixture Model</a>. <strong><u>R. Simha</u></strong> and H. Shatkay. <em>Abstract and Podium Presentation in the Society for Laboratory Automation and Screening <strong>(SLAS)</strong>, February 2015</em>.</p>
+
+      <p><em><strong>2014</strong></em></p>
+
+      <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3994749/pdf/1748-7188-9-8.pdf">Protein (Multi-)Location Prediction: Using Location Inter-Dependencies in a Probabilistic Framework</a>. <strong><u>R. Simha</u></strong> and H. Shatkay. <em>Algorithms for Molecular Biology 9(8), 2014</em>.</p>
+
+      <p><em><strong>2013</strong></em></p>
+
+      <p><a href="http://link.springer.com/chapter/10.1007/978-3-642-40453-5_2">Protein (Multi-)Location Prediction: Using Location Inter-Dependencies in a Probabilistic Framework</a>. <strong><u>R. Simha</u></strong> and H. Shatkay. <em>In proceedings of the International Workshop on Algorithms for Bioinformatics <strong>(WABI)</strong>, September 2013</em>.</p>
+  
+      <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3753569/pdf/btt392.pdf">Determining the Subcellular Location of New Proteins from Microscope Images Using Local Features</a>. L. Coelho, J. Kangas, A. Naik, E. Osuna-Highley, E. Glory-Afshar, M. Fuhrman, <strong><u>R. Simha</u></strong>, P.&nbsp;Berget, J. Jarvik, and R. Murphy. <em>Bioinformatics 29(18), 2013</em>.</p>
+  
+      <p><a href="http://link.springer.com/article/10.1007/s13278-012-0076-6">Identifying High Betweenness Centrality Nodes in Large Social Networks</a>. N. Kourtellis, T. Alahakoon, <strong><u>R. Simha</u></strong>, A. Iamnitchi, and R. Tripathi. <em>Social Network Analysis and Mining 3(4), 2013</em>.</p>
+
+      <p><em><strong>2012</strong></em></p>
+
+      <p><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6313679">Mining Associations Using Directed Hypergraphs</a>. <strong><u>R. Simha</u></strong>, R. Tripathi, and M. Thakur. <em>In proceedings of the Workshop on Graph Data Management (GDM) at the International Conference on Data Engineering <strong>(ICDE)</strong>, April 2012</em>.</p>
+  
+      <p><a href="http://dl.acm.org/citation.cfm?id=2187848">Branded with a Scarlet C: Cheaters in a Gaming Social Network</a>. J. Blackburn, <strong><u>R. Simha</u></strong>, N. Kourtellis, X. Zuo, M. Ripeanu, J. Skvoretz, and A. Iamnitchi. <em>In proceedings of the International World Wide Web Conference <strong>(WWW)</strong>, April 2012 (Acceptance Rate: ~12%)</em>.</p>
+  
+      <p><em><strong>2011</strong></em></p>
+
+      <p><a href="http://www.sigmetrics.org/sigmetrics2011/">Cheating Behavior in a Gaming Metanetwork</a>. J. Blackburn, <strong><u>R. Simha</u></strong>, C. Long, X. Zuo, J. Skvoretz, and A. Iamnitchi. <em>In International Symposium on High Performance Distributed Computing <strong>(HPDC)</strong> / Special Interest Group on Measurement and Evaluation <strong>(SIGMETRICS)</strong> Student Posters Session, June 2011 <strong>(Best Student Poster)</strong></em>. <em>SIGMETRICS Performance Evaluation Review 39(3), 2011</em>.</p>
+  
+      <p><a href="http://dl.acm.org/citation.cfm?id=1989657">K-Path Centrality: A New Centrality Measure in Social Networks</a>. T. Alahakoon, R. Tripathi, N. Kourtellis, <strong><u>R. Simha</u></strong>, and A. Iamnitchi. <em>In proceedings of the Workshop in Social Network Systems <strong>(SNS)</strong>, April&nbsp;2011</em>.</p>
+
+      <p><b>Other Papers</b></p>
+
+      <p><a href="">Influence Maximization in Distribution Networks</a>. <strong><u>R. Simha</u></strong>, R. Tripathi, and B. Padmanabhan. Manuscript.</p>
+    
+      <p><a href="">Identifying Minimal Sources in Networks</a>. <strong><u>R. Simha</u></strong>, R. Tripathi, and B. Padmanabhan. Manuscript.</p>
+
+      <p><b>Thesis</b></p>
+
+      <p><a href="http://gradworks.umi.com/10/19/10191681.html">A Probabilistic Framework for Protein (Multi-)Location Prediction, and its Applicability to Multi-label Classification</a>. <strong><u>R. Simha</u></strong>. <em>PhD Dissertation, University of Delaware, August 2016</em>.</p>
+
+      <p><a href="http://scholarcommons.usf.edu/cgi/viewcontent.cgi?article=4540&amp;context=etd">Mining Associations Using Directed Hypergraphs</a>. <strong><u>R. Simha</u></strong>. <em>Masters Thesis, University of South Florida, March 2011</em>.</p>
+    </div>
+
+    <!-- History -->
+    <div class="docs-section" id="history">
+      <h6 class="docs-header">Brief History</h6>
+      <p><b>Experience</b></p>
+
+      <p><strong>Postdoctoral Research Fellow</strong>, <code class="highlighter-rouge">Oct 2016&#8210;Present</code> <br /> <em><a href="https://www.utoronto.ca/">University of Toronto</a> / <a href="http://www.uhn.ca/">UHN</a></em>, <em>Toronto ON Canada</em></p>
+
+      <p><strong>Graduate Fellow / Research Assistant</strong>, <code class="highlighter-rouge">Jun 2011&#8210;Aug 2016</code> <br /> <em><a href="http://www.udel.edu/">University of Delaware</a></em>, <em>Newark DE USA</em></p>
+
+      <p><strong>R&amp;D Intern</strong>, <code class="highlighter-rouge">Jun 2015&#8210;Aug 2015</code> <br /> <em><a href="http://www.geglobalresearch.com/">GE Global Research</a></em>, <em>Niskayuna NY USA</em></p>
+
+      <p><strong>Applied Data Mining Intern</strong>, <code class="highlighter-rouge">Jun 2014&#8210;Aug 2014</code> <br /> <em><a href="https://www.linkedin.com/">LinkedIn</a></em>, <em>Mountain View CA USA</em></p>
+
+      <p><strong>Machine Learning Summer School Student</strong>, <code class="highlighter-rouge">Jul 2012</code> <br /> <em><a href="https://www.ucsc.edu/">University of California at Santa Cruz</a></em>, <em>Santa Cruz CA USA</em></p>
+
+      <p><strong>Visiting PhD Student</strong>, <code class="highlighter-rouge">Jun 2011&#8210;Jul 2011</code> <br /> <em><a href="http://www.cmu.edu/">Carnegie Mellon University</a></em>, <em>Pittsburgh PA USA</em></p>
+
+      <p><strong>Parallel Computational Science Intern</strong>, <code class="highlighter-rouge">May 2010&#8210;Aug 2010</code> <br /> <em><a href="https://ncar.ucar.edu/about-ncar">National Center for Atmospheric Research</a></em>, <em>Boulder CO USA</em></p>
+
+      <p><strong>Research / Teaching Assistant</strong>, <code class="highlighter-rouge">Aug 2008&#8210;May 2011</code> <br /> <em><a href="http://www.usf.edu/">University of South Florida</a></em>, <em>Tampa FL USA</em></p>
+
+      <p><strong>Senior Software Engineer</strong>, <code class="highlighter-rouge">Jul 2005&#8210;Aug 2008</code> <br /> <em><a href="http://www.tesco.com/">Tesco</a></em>, <em>Welwyn Garden City UK &amp; Bangalore KA India</em></p>
+
+      <p><b>Education</b></p>
+
+      <p><strong><a href="https://genealogy.math.ndsu.nodak.edu/id.php?id=209353">PhD in Computer Science</a></strong>, <a href="http://www.udel.edu/">University of Delaware</a>, <code class="highlighter-rouge">2011&#8210;16</code> <br /> <em>Dissertation: <a href="http://gradworks.umi.com/10/19/10191681.html">A Probabilistic Framework For Protein Multi-Location Prediction, And Its Applicability To Multi-Label Classification</a></em> <br /> <em>Advisor: <a href="https://www.eecis.udel.edu/~shatkay/">Hagit Shatkay</a></em></p>
+
+      <p><strong>MS in Computer Science</strong>, <a href="http://www.usf.edu/">University of South Florida</a>, <code class="highlighter-rouge">2008&#8210;11</code> <br /> <em>Thesis: <a href="http://scholarcommons.usf.edu/cgi/viewcontent.cgi?article=4540&amp;context=etd">Mining Associations Using Directed Hypergraphs</a></em> <br /> <em>Advisor: <a href="">Rahul Tripathi</a></em></p>
+
+      <p><strong>BE in Information Science</strong>, <a href="http://www.nie.ac.in/">National Institute of Engineering</a>, <code class="highlighter-rouge">2001&#8210;05</code> <br /> <em>Thesis: <a href="">High Performance Messaging Layers for Cluster Architecture</a></em></p>
+    </div>
+
+    <!-- Service -->
+    <div class="docs-section" id="service">
+      <h6 class="docs-header">Academic Service</h6>
+      <p><b>PC Member</b></p>
+
+      <p><a href="http://cahss.umbc.edu/events/?id=18716">Mid-Atlantic Student Colloquium on Speech, Language and Learning <code class="highlighter-rouge">2012</code></a></p>
+
+      <p><b>External Reviewer</b></p>
+
+      <p><a href="http://www.nature.com/srep/">Scientific Reports - Nature, <code class="highlighter-rouge">2016</code></a></p>
+      <p><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1097-0134">Proteins: Structure, Function, and Bioinformatics, <code class="highlighter-rouge">2016</code></a></p>
+      <p><a href="http://recomb2016.bioinformatics.ucla.edu/">International Conference on Research in Computational Molecular Biology (RECOMB) <code class="highlighter-rouge">2016</code></a></p>
+      <p><a href="https://bmcbioinformatics.biomedcentral.com/">BMC Bioinformatics, <code class="highlighter-rouge">2015</code></a></p>
+      <p><a href="http://www.liebertpub.com/overview/journal-of-computational-biology/31/">Journal of Computational Biology, <code class="highlighter-rouge">2014</code></a></p>
+      <p><a href="http://sc11.supercomputing.org/">International Conference for High Performance Computing, N/w, Storage and Analysis (SC11) <code class="highlighter-rouge">2011</code></a></p>
+      <p><a href="http://aisel.aisnet.org/icis2009/">International Conference on Information Systems (ICIS) <code class="highlighter-rouge">2009</code></a></p>
+    </div>
+
+    <!-- Contact -->
+    <div class="docs-section" id="contact">
+      <h6 class="docs-header">Contact</h6>
+      <p>Please feel free to reach out at my <a href="mailto:ramanuja.simha@gmail.com">email</a>.</p>
+
+      <p>You can also easily find me at the following sites:</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/ramanujasimha">LinkedIn</a></li>
+        <li><a href="https://github.com/ramanujasimha">Github</a></li>
+        <li><a href="https://twitter.com/ramanujasimha">Twitter</a></li>
+        <li><a href="https://www.facebook.com/ramanuja.simha">Facebook</a></li>
+        <li><a href="https://plus.google.com/109076028520747583258">Google+</a></li>
+      </ul>
+    </div>
+
+    <!-- Blog -->
+    <div class="docs-section" id="blog">
+      <h6 class="docs-header">Blog</h6>
+      <p>Welcome! I will soon begin to document technical as well as some non-technical findings. I hope that you will find this content engaging. </p>
+    </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+<footer>
+  <p>Copyright 2017 <a href="https://github.com/ramanujasimha">Ramanuja Simha</a>. <a href="https://getskeleton.com/">Skeleton</a>. <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Licence.</a> Last updated in March 2017.</p>
+</footer>
 </html>
