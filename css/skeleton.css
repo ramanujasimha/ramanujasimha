@@ -121,11 +121,14 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  font: Verdana, Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  color: #000; }
 footer {
   border-top: 1px solid #eee;
   padding: 2rem 0;
@@ -169,7 +172,7 @@ a {
   border-bottom: 0px solid #cdcdcd; }
 
 a:hover {
-  color: #2B2826;
+  color: #7e0a59;
   text-decoration: none;
   border-bottom: 1px dotted; }
 
@@ -335,9 +338,9 @@ pre > code {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 th,
 td {
-  padding: 12px 15px;
+  padding: 0px 15px;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+  border-bottom: 0px solid #E1E1E1; }
 th:first-child,
 td:first-child {
   padding-left: 0; }

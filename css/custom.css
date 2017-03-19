@@ -1,5 +1,51 @@
+.sub-head {}
+.title {
+  font-size: 3.6rem; 
+  text-transform: uppercase; 
+  font-family: "league-gothic-1","league-gothic-2",sans-serif;
+  letter-spacing: 1.2px; 
+  color: #7e0a59; }
+.position {
+  font-family: "league-gothic-1","league-gothic-2",sans-serif;
+  font-size: 1.7rem; }
+.paper {
+  width: 100%;
+  margin: 0 0 10px 0px;
+  padding: 0 0 10px 0;
+  border-bottom: 1px dotted #C5C2C5; }
+.paper-auth {
+  color: #00002F; }
+.paper-title {
+  color: #000000; }
+.paper-book {
+  font-style: italic; }
+.job {
+  width: 100%;
+  margin: 0 0 10px 0px;
+  padding: 0 0 10px 0; }
+.job-title {
+  font-weight: bold; }
+.job-institution {
+  font-style: italic; }
+.study {
+  width: 100%;
+  margin: 0 0 10px 0px;
+  padding: 0 0 10px 0; }
+.study-degree {
+  font-weight: bold; }
+.study-institution {
+  font-style: italic; }
+.study-thesis {
+  color: #000000; }
+.study-advisor {
+  color: #00002F;
+  font-style: italic; }
+.indent15 {
+  padding-left: 15px; }
+.hide {
+  color: #999; }
 .container {
-  max-width: 730px; }
+  max-width: 750px; }
 .header {
   margin-top: 6rem;
   text-align: center; }
@@ -9,6 +55,7 @@
   margin-top: 4rem;
   margin-bottom: 4rem; }
 .docs-header {
+  padding: .5rem 0;
   text-transform: uppercase;
   font-size: 1.4rem;
   letter-spacing: .2rem;
@@ -137,7 +184,7 @@
     margin-bottom: 0; }
   .navbar-link {
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 1.4rem;
     font-weight: 600;
     letter-spacing: .2rem;
     margin-right: 35px;
