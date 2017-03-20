@@ -124,7 +124,7 @@ body {
   font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font: Verdana, Arial, Helvetica, sans-serif;
+  font: Helvetica, Verdana, Arial, sans-serif;
   background-color: #FFFFFF;
   margin: 0;
   padding: 0;

@@ -1,11 +1,11 @@
 .title {
   font-size: 3.6rem; 
   text-transform: uppercase; 
-  font-family: "league-gothic-1","league-gothic-2",sans-serif;
+  font-family: Helvetica, Verdana, Arial, sans-serif; 
   letter-spacing: 1.2px; 
   color: #7e0a59; }
 .position {
-  font-family: "league-gothic-1","league-gothic-2",sans-serif;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
   font-size: 1.7rem; }
 .paper {
   width: 100%;
